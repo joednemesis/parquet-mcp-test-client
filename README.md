@@ -33,14 +33,26 @@ This repository contains a lightweight Python-based test client for the **Parqet
 
 ## **📦 Installation & Setup**
 
-1. **Prerequisites**: Python 3.x installed.  
-2. **Clone & Install**:  
+1. **Prerequisites**:  
+   * **Python 3.x** must be installed on your system.  
+2. **Virtual Environment (Setup & Activation)**:  
+   To keep your global Python installation clean, create and activate a virtual environment. **This step is required before installing dependencies.**  
+   \# 1\. Create the environment  
+   python \-m venv venv
+
+   \# 2\. Activate the environment (Windows)  
+   .\\venv\\Scripts\\activate
+
+   *After activation, your terminal prompt should show (venv) at the beginning.*  
+3. **Install Dependencies**:  
+   Once the environment is active, install the required packages:  
    pip install \-r requirements.txt
 
-3. **Configuration**:  
-   * Register your integration at the Parqet Console.  
-   * Set the Redirect URI to http://localhost:3000/callback.  
-   * Add your CLIENT\_ID to app.py.
+4. **Configuration**:  
+   * Open app.py and insert your **Client ID** into the CLIENT\_ID variable.  
+5. **Parqet Console Settings**:  
+   * Register your integration at the [Parqet Console](https://www.google.com/search?q=https://console.parqet.com).  
+   * Set the Redirect URI to http://localhost:3000/callback.
 
 ## **🚦 Usage**
 
