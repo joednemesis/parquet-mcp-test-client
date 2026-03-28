@@ -5,11 +5,11 @@ This repository contains a lightweight Python-based test client for the **Parqet
 ## 📸 Screenshots
 *(Note: These screenshots were generated using the provided mockup tool to protect private financial data.)*
 
-| Startseite | Portfolio-Auswahl |
+| Start Page | Portfolio Selection |
 | :--- | :--- |
 | ![Startseite](screenshots/startpage.png) | ![Portfolio Auswahl](screenshots/PortfolioSelection.png) |
 
-| Portfolio Details | Aktivitäten | Performance |
+| Portfolio Details | Activities | Performance |
 | :--- | :--- | :--- |
 | ![Details](screenshots/Result_parqet_get_portfolio.png) | ![Aktivitäten](screenshots/Result_parqet_get_activities.png) | ![Performance](screenshots/Result_parqet_get_performance.png) |
 
